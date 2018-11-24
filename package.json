@@ -1,0 +1,51 @@
+{
+  "name": "single-cabal-post",
+  "version": "5.0.0",
+  "description": "p2p chat",
+  "main": "index.js",
+  "bin": {
+    "cabal": "cli.js"
+  },
+  "dependencies": {
+    "cabal-core": "^3.0.0",
+    "chalk": "^2.4.1",
+    "collect-stream": "^1.2.1",
+    "discovery-swarm": "^5.1.2",
+    "minimist": "^1.2.0",
+    "neat-log": "^3.1.0",
+    "strftime": "^0.10.0",
+    "through2": "^2.0.3",
+    "txt-blit": "^1.0.0"
+  },
+  "devDependencies": {
+    "standard": "^11.0.1"
+  },
+  "scripts": {
+    "test": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cabal-club/cabal.git"
+  },
+  "keywords": [
+    "hyperdb",
+    "decent",
+    "dat",
+    "chat",
+    "cabal",
+    "decentralize",
+    "p2p"
+  ],
+  "authors": [
+    "cblgh",
+    "noffle",
+    "hunor karamán",
+    "karissa",
+    "ralphtheninja"
+  ],
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/cabal-club/cabal/issues"
+  },
+  "homepage": "https://github.com/cabal-club/cabal#readme"
+}
